@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join the Movement - Forgotten Faces, Polluted Places</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('Background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #d00cf2, #33023b);
+      padding: 60px 20px;
+      text-align: center;
+      color: #fff;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 700px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 16px;
+      box-shadow: 0 4px 22px rgba(0,0,0,0.1);
+      margin-top: -30px;
+    }
+    h2 {
+      color: #a40eac;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+      text-align: center;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    input, textarea {
+      padding: 12px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+    .btn {
+      background: #bf22cd;
+      color: white;
+      padding: 14px 0;
+      border: none;
+      border-radius: 30px;
+      font-weight: bold;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #9807ab;
+    }
+    .email-section {
+      margin-top: 30px;
+      text-align: center;
+      font-style: italic;
+    }
+    .email-section a {
+      color: #bf22cd;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .email-section a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Join the Movement</h1>
+    <p>Be part of Forgotten Faces, Polluted Places</p>
+  </header>
+
+  <section class="section">
+    <h2>Register or Leave a Quote</h2>
+    <form action="mailto:maingisochipako@gmail.com
+    " method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Full Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Share a quote or message..." required></textarea>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+
+    <div class="email-section">
+      <p>If you want to donate items or support directly, email us at: <a href="mailto:maingisochipako@gmail.com">maingisochipako@gmail.com</a></p>
+    </div>
+  </section>
+</body>
+</html>
